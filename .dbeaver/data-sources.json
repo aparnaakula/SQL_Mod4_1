@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-18d06582b2d-6913c2cc716b6fcd": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "test_db",
+			"save-password": true,
+			"configuration": {
+				"host": "li2283-18.members.linode.com",
+				"port": "5432",
+				"database": "test_db",
+				"url": "jdbc:postgresql://li2283-18.members.linode.com:5432/test_db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
